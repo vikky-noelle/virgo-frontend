@@ -1,0 +1,25 @@
+<app-login-header></app-login-header>
+<div class="main-body">
+    <div class="min-header">
+        <div class="board-name"><h1>{{name}}</h1></div>
+        <div class="board-type"><h1>{{type}}</h1></div>
+    </div>
+    <div class="lists-container" #divContent>
+        <div class="add-list">
+            <h1 class="add-heading" (click)="toggleS()">+&nbsp;Add List</h1>
+            <div class="show-add">
+                <input type="text" placeholder="enter the list name" #lname>
+                <button (click)="addlist(lname.value)">Add List</button>
+                <button (click)="toggleS()" style="background-color: rgb(255, 255, 255, 0); color: #333333">X</button>
+            </div>
+        </div>
+        <div class="lists">
+            <div class="lists-header">
+                <h1>name<b>Delete</b></h1>
+            </div>
+            <div class="list-cards"><h1>card1</h1></div>
+            <input type="text" placeholder="enter the card content" #cardcontent>
+            <button (click)="addCard(cardcontent.value)">Add Card</button>
+        </div>
+    </div>
+</div>

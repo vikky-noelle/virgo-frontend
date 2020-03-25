@@ -1,0 +1,38 @@
+<div class="not-logged-in" *ngIf="loggedOut">
+    <app-header></app-header>
+    <div class="poster">
+        <h1>Virgo lets you work more collaboratively and get more done.</h1>
+        <p>Trello’s boards, lists, and cards enable you to organize and prioritize your projects in a fun, flexible, and rewarding way.</p>
+        <img src="/assets/images/hero-a.svg" alt="">
+    </div>
+    <div class="main-content">
+        <h1>Sign Up To Access The Magic</h1>
+        <button routerLink="/register">Sign Up</button>
+        <img src="/assets/images/img1.png" alt="">
+    </div>
+</div>
+
+<!-- logged in view -->
+<div class="logged-in" *ngIf="loggedIn">
+    <app-login-header></app-login-header>
+    <img class="home-img" src="/assets/images/home-view.png" alt="">
+    <div class="side-nav">
+        <div class="part-one">
+            <div class="home">Home</div>
+            <div class="board-L" routerLink="/boards">Boards</div>
+        </div>
+        <div class="part-two">
+            <div class="heading">
+                <h1>Teams</h1>
+                <h2 routerLink="/createboard/tboard">+</h2>
+            </div>
+        </div>
+        <div class="part-three">
+
+        </div>
+        <div routerLink="/createboard/pboard" class="part-four">
+            <h1>Links</h1>
+            <h2><b>+</b>Create Board</h2>
+        </div>
+    </div>
+</div>

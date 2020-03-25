@@ -1,0 +1,76 @@
+.head-logo{
+    font-size: 3em;
+    position: fixed;
+    right: 44%;
+    top: 5%;
+    cursor: pointer;
+    color: #073450;
+}
+.login-window{
+    padding-top: 100px;
+    display: none;
+}
+.register-window{
+    display: none;
+    padding-top: 100px;
+}
+.left-img{
+    height: 500px;
+    float: left;
+}
+.right-img{
+    height: 500px;
+    float: right;
+}
+.main-login{
+    position: fixed;
+    border-radius: 10px;
+    left: 34%;
+    top: 20%;
+    border-top: 2px solid rgb(199, 199, 199);
+    border-left: 2px solid rgb(199, 199, 199);
+    min-height: 400px;
+    height: auto;
+    width: 30%;
+    text-align: center;
+}
+.main-login>h1{
+    padding: 10px;
+    color: rgb(83, 83, 83);
+    font-weight: lighter;
+}
+.main-login>label{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    /* border: 1px solid silver; */
+    border-radius: 10px;
+    /* width: 80%; */
+    margin-left: 11%;
+    float: left;
+}
+.main-login>input{
+    margin-bottom: 20px;
+    border: 1px solid silver;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 5%;
+}
+.main-login>button{
+    width: 30%;
+    border: none;
+    border-radius: 10px;
+    background-color: #073450;
+    color: white;
+    padding: 5px;
+    font-size: 1.3em;
+}
+.main-login>h2{
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: lighter;
+    font-size: 1em;
+}
+.main-login>h2:hover{
+    color: #073450;
+}

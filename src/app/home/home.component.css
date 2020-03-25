@@ -1,0 +1,156 @@
+.poster{
+    height: 100vh;
+    width: 100%;
+    background-color: #073450;
+    color: white;
+}
+.poster>h1{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    line-height: 1.3em;
+    letter-spacing: 5px;
+    font-size: 2.5em;
+    width: 40%;
+}
+.poster>p{
+    position: absolute;
+    top: 53%;
+    left: 10%;
+    line-height: 1.3em;
+    letter-spacing: 5px;
+    font-size: 1.5em;
+    font-style: italic;
+    width: 40%;
+}
+.poster>img{
+    position: absolute;
+    top: 18%;
+    right: 10%;
+    line-height: 1.3em;
+    letter-spacing: 5px;
+    font-size: 1.5em;
+    font-style: italic;
+    width: 40%;
+}
+.main-content{
+    margin-top: 100px;
+    height: auto;
+    width: 100%;
+}
+.main-content>img{
+    float: right;
+    margin-right: 8%;
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+.main-content>h1{
+    /* position: absolute; */
+    float: left;
+    color: #073450;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.main-content>button{
+    float: left;
+    cursor: pointer;
+    margin-left: -20%;
+    margin-top: 15%;
+    border:none;
+    background-color: #073450;
+    color: white;
+    padding: 15px;
+    font-size: 1.4em;
+    border-radius: 10px;
+}
+
+/* logged in view */
+.side-nav{
+    z-index: 3;
+    top: 20%;
+    left: 17%;
+    position: fixed;
+    height: auto;
+    min-height: 100px;
+    width: 20%;
+    
+}
+.home{
+    background-color: #c6d4dd;
+    color: #073450 !important;
+    font-weight: 700;
+}
+.part-one>div{
+    color: #333333;
+    text-align: left;
+    padding-left: 10%;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;  
+    cursor: pointer;
+}
+.board-L:hover{
+    background-color: silver;
+}
+.heading{
+    padding-left: 5%;
+    padding-top: 10px;
+    width: 80%;
+}
+.heading>h1{
+    float: left;
+    font-size: 1.1em;
+    color: #666666;
+}
+.heading>h2{
+    cursor: pointer;
+    float: right;
+    border-radius: 4px;
+    color: #666666;
+    font-weight: lighter;
+    margin-top: -4px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.heading>h2:hover{
+    background-color: silver;
+}
+.part-three{
+    min-height: 40px;
+}
+.part-four{
+    margin-top: 20px;
+}
+.part-four>h1{
+    font-size: 1.1em;
+    color: #666666;
+    padding-left: 5%; 
+    margin-bottom: 20px;
+}
+.part-four>h2{
+    cursor: pointer;
+    font-weight: lighter;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    font-size: 1.1em;
+    color: #666666;
+    padding-left: 5%; 
+}
+.part-four>h2:hover{
+    background-color: silver;
+    color: black;
+}
+.part-four>h2>b{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 5%; 
+    background-color: rgb(221, 220, 220);
+}
+.home-img{
+    position: fixed;
+    top: 20%;
+    left: 40%;
+}

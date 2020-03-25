@@ -1,0 +1,20 @@
+<app-login-header></app-login-header>
+<div class="common-form">
+    <img src="/assets/images/flower.jpg" alt="">
+
+    <div class="p-form">
+        <h1>Personal Board</h1>
+        <form action="">
+            <input type="text" placeholder="write the name of the board" #pname>
+        </form>
+        <button (click)="pcreate(pname.value)">Create</button>
+    </div>
+    <div class="t-form">
+        <h1>Team Board</h1>
+        <form action="">
+            <input type="text" placeholder="write the name of the board" #tname>
+            <textarea name="" id="" cols="30" rows="10" placeholder="(Optional)Description about your team." #taval></textarea>
+        </form>
+        <button (click)="tcreate(tname.value, taval.value)">Create</button>
+    </div>
+</div>

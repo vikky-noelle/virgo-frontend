@@ -1,0 +1,140 @@
+.main-body{
+    /* position: fixed; */
+    padding-top: 80px;
+    width: 100%;
+    min-height: 87vh;
+    background-color: rgb(73, 160, 33);
+    /* overflow-x: scroll; */
+}
+.min-header{
+    position: fixed;
+    left: 0%;
+    width: 80%;
+    top:11%;
+}
+.min-header>div{
+    margin-left: 2%;
+}
+.board-name{
+    float: left;
+    position: relative;
+}
+.board-name>h1{
+    color: white;
+    font-size: 1.6em;
+    letter-spacing: 4px;
+}
+.board-type{
+    float: left;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: relative;
+    border-radius: 5px;
+}
+.board-type>h1{
+    color: white;
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+
+.lists-container{
+    position: relative;
+    margin-top: 50px;
+    width: 98%;
+    margin-left: 0%;
+}
+.lists-container>div{
+    cursor: pointer;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    width: 20%;
+    height: auto;
+    float: left;
+}
+.add-list{
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: rgb(219, 219, 219);
+}
+.add-list:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgb(255, 255, 255);
+}
+.add-list>h1{
+    padding: 5px;
+    margin-left: 10%;
+    /* text-align: center; */
+    font-size: 1.4em;
+}
+.show-add{
+    display: none;
+}
+.show-add>input{
+    width: 80%;
+    padding: 10px;
+    margin-left: 5%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.show-add>button{
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #073450;
+    color: white;
+    font-size: 1.3em;
+    border-radius: 5px;
+}
+.lists{
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 5px;
+    min-height: 100px !important;
+    height: auto;
+}
+.lists>.lists-header>h1{
+    font-size: 1.4em;
+    padding: 10px;
+}
+.lists>.lists-header>h1>b{
+    margin-left: 60%;
+    font-size: 0.6em !important;
+}
+.lists>.lists-header>h1>b:hover{
+    color: red;
+}
+.lists>input{
+    width: 80%;
+    padding: 10px;
+    margin-left: 5%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.lists>button{
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #073450;
+    color: white;
+    font-size: 1.3em;
+    border-radius: 5px;
+}
+.list-cards{
+    position: relative;
+    width: 88%;
+    height: auto;
+    background-color: white;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+.list-cards>h1{
+    font-size: 1em;
+    color: #444444;
+    padding: 10px;
+}

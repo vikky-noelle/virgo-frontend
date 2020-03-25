@@ -1,0 +1,53 @@
+.header{
+    z-index: 2;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: #073450;
+}
+.logo{
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    color: white;
+    font-size: 2.2em;
+}
+.sign-up{
+    float: right;
+    width: 20%;
+}
+.sign-up>.login{
+    margin-left: 20px;
+    margin-top: 25px;
+    border-radius: 20px;
+    padding: 5px;
+    border: 1px solid white;
+    height: 20px;
+    float: left;
+    width: 25%;
+    cursor: pointer;
+}
+.sign-up>.register{
+    margin-top: 25px;
+    border-radius: 20px;
+    padding: 5px;
+    border: 1px solid white;
+    height: 20px;
+    width: 32%;
+    float: left;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.login>h1{
+    color: white;
+    font-weight: lighter;
+    font-size: 1.2em;
+    margin-left: 9px;
+}
+.register>h1{
+    color: white;
+    font-weight: lighter;
+    font-size: 1.2em;
+    margin-left: 9px;
+}

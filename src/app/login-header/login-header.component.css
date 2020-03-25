@@ -1,0 +1,190 @@
+.header{
+    z-index: 2;
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: #073450;
+}
+.logo{
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+    color: rgb(196, 196, 196);
+    font-size: 2.2em;
+}
+.logo:hover{
+    color: white;
+}
+.left-header-content{
+    width: 43%;
+    float: left;
+}
+.home{
+    float: left;
+    cursor: pointer;
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 2%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(196, 196, 196, 0.6);
+}
+.boards{
+    float: left;
+    cursor: pointer;
+    width: 16%;
+    margin-top: 10px;
+    margin-left: 2%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(196, 196, 196, 0.6);
+}
+.boards>h1{
+    margin-left: 3%;
+    margin-top: 4px;
+    color: white;
+    font-weight: lighter;
+    font-size: 1.7em;
+}
+.home>img{
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 30px;
+    width: 30px;
+}
+.log-up{
+    float: right;
+    width: 23%;
+}
+.log-up>.logout{
+    margin-left: 20px;
+    margin-right: 7%;
+    margin-top: 12px;
+    border-radius: 20px;
+    padding: 5px;
+    border: 1px solid white;
+    height: 20px;
+    float: right;
+    width: 24%;
+    cursor: pointer;
+}
+.log-up>.create{
+    margin-left: 20px;
+    margin-top: 12px;
+    border-radius: 20px;
+    padding: 5px;
+    border: 1px solid white;
+    height: 20px;
+    float: right;
+    width: 20px;
+    cursor: pointer;
+}
+.create>h1{
+    color: white;
+    margin-top: -9px;
+    margin-left: 5%;
+}
+.logout>h1{
+    color: white;
+    font-weight: lighter;
+    font-size: 1.2em;
+    margin-left: 9px;
+}
+.form-board{
+    display: none;
+    z-index: 3;
+    background-color: white;
+    border-radius: 5px;
+    position: fixed;
+    top: 10%;
+    height: 100px;
+    border: 1px solid rgb(216, 216, 216);
+    width: 20%;
+    -webkit-box-shadow: 14px 14px 14px -12px rgba(94,94,94,1);
+    -moz-box-shadow: 14px 14px 14px -12px rgba(94,94,94,1);
+    box-shadow: 14px 14px 14px -12px rgba(94,94,94,1);
+}
+.form-board>h1{
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 1.6em;
+    text-align: center;
+    padding: 8px;
+}
+.tiles{
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80%;
+    margin: 0px auto;
+    height: 40px;
+    background-color: rgb(196, 196, 196, 0.6);
+}
+.tiles:hover .tile-left{
+    background-color: #073450;
+}
+.tiles:hover{
+    background-color: rgb(196, 196, 196, 0.8);
+}
+.tile-left{
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    background-color: #215b80;
+    float: left;
+    height: 40px;
+    width: 40px;
+}
+.form-create{
+    display: none;
+    z-index: 3;
+    background-color: white;
+    border-radius: 5px;
+    position: fixed;
+    top: 10%;
+    right: 0%;
+    height: auto;
+    border: 1px solid rgb(216, 216, 216);
+    width: 20%;
+    -webkit-box-shadow: -8px 4px 5px 0px rgba(94,94,94,0.5);
+    -moz-box-shadow: -8px 4px 5px 0px rgbargba(94,94,94,0.5);
+    box-shadow: -8px 4px 5px 0px rgba(94,94,94,0.5);
+}
+.form-create>h1{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    color: #444444;
+    font-weight: lighter;
+    padding: 8px;
+    border-bottom: 1px solid silver;
+}
+.form-create>div{
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.form-create>div:hover{
+    background-color: silver;
+}
+.form-create>div>h1{
+    padding: 5px 0px 0px 15px;
+    font-size: 1em;
+    color: #444444;
+}
+.form-create>div>p{
+    padding: 5px 5px 0px 15px;
+    font-size: 0.8em;
+}
+.form-create>h2{
+    cursor: pointer;
+    position: absolute;
+    right: 10%;
+    top: 4.5%;
+    color: #444444;
+    font-size: 1.2em;
+}
